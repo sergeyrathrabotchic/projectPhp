@@ -1,0 +1,553 @@
+body {
+    margin: 0px;
+    background-color: /*#904211*/#364a49;
+}
+/* ------------------ НАЧАЛО стилей для регистрации -------------------------- */
+
+#registration {
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    color: #FFFFFF;
+    /*display: none;*/
+    position: absolute;
+    top: 177px;
+    background-color: #6e2e00;
+    /*top: 0;
+    right: 0;
+    bottom: 0;*/
+    left: 40%;
+    margin: auto;
+}
+@media (max-width: 530px){
+#registration{
+left: 20%; width: 70%;
+}              
+}
+#code {
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    color: #FFFFFF;
+    /*display: none;*/
+    position: absolute;
+    top: 177px;
+    background-color: #6e2e00;
+    /*top: 0;
+    right: 0;
+    bottom: 0;*/
+    left: 40%;
+    margin: auto;
+}
+.Alfabutton {
+border: none;
+padding: 5px 15px;
+background-color: #c31111;
+margin-top: 20px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+border-radius: 20px;
+}
+.BettaButtonRegistration {
+border: none;
+padding: 5px 15px;
+background-color: #000;
+margin-top: 20px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+border-radius: 20px;
+}
+/* ------------------ КОНЕЦ стилей для регистрации -------------------------- */
+/* ------------------ НАЧАЛО стилей для шапки сайта -------------------------- */
+#header1 {
+position: relative;
+width: 100%;
+height: 85px;
+text-align: center;
+background: #364a49/*#904211*/;
+background-size: 100%;
+}
+/*@media (max-width: 530px){
+#header1 {
+height: 122px;
+}*/
+col-md-7 bannerbottomleftaos-init aos-animate
+#header2 {
+position: relative;
+width: 100%;
+height: 45px;
+padding: 10px 0;
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+background: #000;
+background-size: 100%;
+}
+#menuDesctrop {
+    margin-top: 100px;
+}
+#logotip {
+    width: 204px;
+    height: 85px;
+    /*margin-left: 35%;
+    float: left; 
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;*/
+}
+/*@media (max-width: 530px){
+    #logotip {
+        margin-left: 25%;
+    }
+}*/
+@media (min-width: 1000px){
+    #logotip {
+        width: 386px;
+        height: 184px;
+    }
+    #menuDesctrop {
+        margin-top: 70px;
+    }
+    #header1 {
+        height: 184px;
+    }
+}
+@media (min-width: 1250px){
+    #logotip {
+        width: 772px;;
+        height: 368px;
+    }
+    #header1 {
+        height: 368px;
+    }
+}
+.Telegram {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: 5px;
+float: left; 
+background: url(../images/Telegram2.png) no-repeat;
+background-size: contain;
+}
+.Telegram3 {
+width: 45px;
+height: 45px;
+margin-top: 5px;
+margin-right: 5px;
+/*clear: right;*/
+/*float: right; */  
+background: url(../images/telegram.png) no-repeat;
+background-size: contain;
+}
+
+      
+      
+/*w3ls_footer_grid_left*/
+#Telegram_fixed {
+width: 35px;
+height: 35px;
+margin-top: -5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+background: url(../images/telegram.png) no-repeat;
+background-size: contain;
+}
+#Menu {
+
+width: 45px;
+height: 45px;
+/*margin-top: 5px;
+margin-right: 5px;*/
+/*float: right;*/  
+/*background: url(../images/Menu.png) no-repeat;*/
+background-size: contain;
+}
+
+
+.Whatsapp {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: 5px;
+float: left; 
+background: url(../images/Whatsapp2.png) no-repeat;
+background-size: contain;
+}
+.Whatsapp3 {
+width: 45px;
+height: 45px;
+margin-top: 5px;
+margin-right: 5px;
+/*clear: right;
+float: right; */
+background: url(../images/whatsapp.png) no-repeat;
+background-size: contain;
+}
+#Whatsapp_fixed {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+background: url(../images/whatsapp.png) no-repeat;
+background-size: contain;
+}
+#Bec {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+background: url(../images/bec.png) no-repeat;
+background-size: contain;
+}
+.Instagram {
+width: 45px;
+height: 45px;
+margin-top: 5px;
+margin-right: 5px;
+float: left; 
+/*background: url(../images/Instagram2.jpg) no-repeat;*/
+background: url(../images/instogram.png) no-repeat;
+background-size: contain;
+}
+#Instagram_fixed {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+background: url(../images/Instagram.jpg) no-repeat;
+background-size: contain;
+}
+.Facebook {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: 5px;
+float: left; 
+background: url(../images/Facebook2.png) no-repeat;
+background-size: contain;
+}
+#Facebook_fixed {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+background: url(../images/Facebook.png) no-repeat;
+background-size: contain;
+}
+.Vkontakte {
+width: 45px;
+height: 45px;
+margin-top: 5px;
+margin-right: 5px;
+float: left;
+/*background: url(../images/Vkontakte2.jpg) no-repeat;*/
+background: url(../images/vk.png) no-repeat;
+background-size: contain;
+}
+#Vkontakte_fixed {
+width: 35px;
+height: 35px;
+margin-top: 5px;
+margin-right: -10px;
+clear: right;
+float: right;  
+/*background: url(../images/Vkontakte.jpg) no-repeat;*/
+background: url(../images/vk.png) no-repeat;
+background-size: contain;
+}
+/*@media (max-width: 470px){
+.Telegram{
+margin-right: 16%;
+}
+}*/
+@media (max-width: 394px){
+/*.Vkontakte{
+clear: right;
+float: none;
+margin-left: 43%;
+margin-top: 70px;
+}*/
+
+/*.Telegram{
+margin-right: 13%;
+}*/
+}
+@media (min-width: 993px){
+/*.Telegram{
+margin-right: 5px;
+float: left;
+}
+.Whatsapp{
+float: left;
+}
+.Facebook{
+float: left;
+}
+.Vkontakte{
+float: left;
+}
+.Instagram{
+float: left;
+} */           
+}
+#fixed {
+width: 50px;
+height: 50px;
+margin-top: 5px;
+margin-right: 5px;
+float: right; 
+background: url(../images/fixed2.jpg) no-repeat;
+background-size: contain;
+}
+
+#fixed_l {
+position: fixed; 
+top: 78%;
+left: 94.2%;
+}
+#fixed_menu {
+    width: 18px;
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #c31111;
+    border-radius: 10px;
+    color: #FFFFFF;
+    /* display: none; */
+    position: absolute;
+    top: 1.6%;
+    background-color: #000;
+    position: fixed;
+    top: 47%;
+    left: 90.2%;
+    margin: auto;
+}
+
+@media (max-width: 530px){
+#fixed_l {
+left: 83.2%;
+}
+#fixed_menu{
+top: 49%;
+left: 85%;
+}
+}
+.AlfabuttonShapka {
+
+border: none;
+padding: 5px 15px;
+background-color: #c31111;
+margin-top: 10px;
+margin-right: 10px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+border-radius: 20px;
+margin-top: 70px;
+}
+#Link {
+border: none;
+margin-top: 20px;
+margin-right: 15px;
+text-align: center;
+font-size: 1.3em;
+color: #FFFFFF;
+text-decoration: none;
+}
+#button {
+
+appearance: auto;
+text-rendering: auto;
+color: -internal-light-dark(black, white);
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: center;
+align-items: flex-start;
+cursor: default;
+background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+box-sizing: border-box;
+margin: 0em;
+font: 400 13.3333px Arial;
+padding: 0px 0px;
+border-width: 0px;
+border-style: outset;
+border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+border-image: initial;
+border-radius: 0px;
+/*height: 35px;
+width: 35px;
+margin-top: 6px;
+margin-right: 5px;*/
+    height: 45px;
+    width: 45px;
+    margin-top: -60px;
+    margin-right: 10px;
+    display: none;
+}
+
+#TableShapka {
+border-collapse: collapse;
+text-align:  center;
+/*margin-top: 17px;*/
+width: 100%;
+/*height: 100%;*/
+background: #000;
+/*BORDERCOLOR : #000000;*/
+}
+/* ------------------ КОНЕЦ стилей для шапки сайта -------------------------- */
+/* ------------------ Начало стилей для блоков-------------------------- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.block {
+    width: 400px;
+    /*height: 400px;*/
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 5px solid /*#364a49*//*#904211*/#6e2e00;
+    margin-top: 50px;
+}
+@media (min-width: 1000px){
+    .block {
+        border: 10px solid /*#364a49*//*#904211*/#6e2e00;
+    }
+}
+.imgBlock {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -2px;
+}
+@media (max-width: 835px){
+    .imgBlock {
+        border-radius: 14px;
+        margin-top: 0px;
+    }
+    .container {
+        margin-top: 100px;
+    }
+}
+.textBlock {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media (max-width: 600px){
+    .block { 
+        width: 300px;
+    }
+}
+/* ------------------ КОНЕЦ стилей для блоков-------------------------- */
+/* ------------------ НАЧАЛО стилей для магазина-------------------------- */
+.shopBotton{
+    width: 50px;
+	height: 50px;
+	margin-left: 25px;
+	margin-right: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background: url(../images/shopBotton.png) no-repeat;
+    background-size: contain;
+	border: 0px;
+	transform: rotate(180deg);
+}
+.shopBottonRight{
+	transform: rotate(0deg);
+}
+@media (min-width: 750px){
+    .shopBotton {
+        display: none;
+    }
+
+}
+.element {
+    /*border: 2px solid #000000;*/
+    height: 400px;
+    width: 14%;
+}
+.elementOval {
+    margin-top: -20px;
+    width: 14%;
+}
+.blockShop {
+    border: 0;
+}
+.setka {
+    display: flex;
+    margin-top: -400px;
+     
+}
+.oval {
+    margin-left: 40%;
+    width: 7px;
+    height: 7px;
+    /*background-color: #6e2e00;*/
+    border-radius: 7px/7px;
+    text-align: center;
+    border: 3px solid #6e2e00;
+}
+@media (max-width: 700px){
+    .setka {
+      display: none;   
+    }
+    
+}
+@media (max-width: 600px){
+    .element {
+        height: 300px;
+    }
+    .setka {
+        margin-top: -300px;
+    }
+    /*.block { 
+        width: 300px;
+    }*/
+}
+/* ------------------ КОНЕЦ стилей для магазина-------------------------- */
+/* ------------------ Начало стилей  для опроса-------------------------- */
+.bottonQuestion{
+    border-radius: 20px;
+    border: 2px solid #d6d1d1;
+    padding: 10px;
+    background-color: #6e2e00;
+    margin-left: 20px; 
+    margin-top: 20px;
+    text-decoration: none;
+    color: #d6d1d1;
+}
+.questionText{
+    margin-top: 120px;
+    text-align: center;
+}
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*margin-top: 200px;*/
+    /*text-align: center;*/
+    margin-bottom: 100px;
+}
+
+/* ------------------ Конец стилей  для опроса-------------------------- */

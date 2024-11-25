@@ -1,0 +1,156 @@
+body{
+	padding:0;
+	margin:0;
+	background:#fff;
+	position:relative;
+	font-family: 'Raleway', sans-serif;
+}
+body a{
+  transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+	text-decoration:none;
+}
+p {
+    margin-left: 10px;
+}
+.box {
+    display: grid;
+    /*margin: auto;*/
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    grid-template-rows: 3rem 3rem 3rem /*3rem 3rem 3rem 3rem 3rem 3rem*/;
+    grid-template-columns: 25% 25% 25%;
+    /*grid-template-columns: 90% ;*/
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 70%;
+    /*height: 768px;*/
+}
+.buttonadmin {
+    border: none;
+    background-color: #1c8203;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    width : 85%;
+}
+.textadmin{
+    border-radius: 8px;
+    border: 2px solid #d6d1d1;
+}
+/*----------------------Начало вкладки главного меню---------------------------*/
+.container {
+    /*display: flex;*/
+}
+.mainMenu {
+    /*width: 20%;
+    height: 100vh;
+    min-width: 135px;
+    background: #000000;*/
+}
+.links{
+    margin-left: 40%;  
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+.content {
+    min-width: 80%;
+}
+@media (max-width: 600px){
+    .mainMenu {
+        width: 90px;
+        min-width: 90px;
+    }
+    .content {
+        min-width: 5%;
+    }
+    .links{
+        margin-left: 8%;  
+    }
+}
+/*----------------------Конец вкладки главного меню---------------------------*/
+/*----------------------Начало вкладки зарегестрированые пользователи---------------------------*/
+table {
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:first-child{
+    background: #5ca3e1;
+} 
+th, td:first-child {
+    background: #1c70b9;
+    color: white;
+    padding: 10px 20px;
+    }
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: #D8E6F3;
+    }
+th:first-child, td:first-child {
+    text-align: left;
+}
+@media (max-width: 600px){
+    #textgrid {
+    grid-column: 1 ;
+    }
+    .box {
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+    table {
+        width: 70%;
+        margin-left: 5%;
+    }
+    th, td:first-child {
+        padding: 5px 10px;
+    }
+}
+/*----------------------Конец вкладки зарегестрированые пользователи---------------------------*/
+/*----------------------Начало вкладки новости---------------------------*/
+
+.buttonNews {
+    border: none;
+    background-color: #1c8203;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.boxNews {  
+    display: grid;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+    grid-template-columns: 45% 75%;
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 70%; 
+}
+
+@media (max-width: 600px){
+    .boxNews {
+        grid-template-rows: 3rem 3rem 1rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem 3rem ;
+        grid-template-columns: 250px;
+        row-gap: 30px;
+        width: 30%;
+    }
+}
+/*----------------------Конец вкладки новости---------------------------*/
